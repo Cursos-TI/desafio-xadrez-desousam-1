@@ -16,26 +16,26 @@ int main() {
     // BISPO - WHILE
     // 5 casas na diagonal (cima + direita)
 
-    int b = 0;
+    int j = 0;
 
     printf("\n=== movimento do bispo ===\n");
 
-    while(b < 5) {
+    while(j < 5) {
         printf("cima, direita\n");
-        b++;
+        j++;
     }
 
     // RAINHA - DO-WHILE
     // 8 casa para esquerda
 
-    int q = 0;
+    int k = 0;
 
     printf("\n=== movimento da rainha ===\n");
 
     do {
         printf("esqueda\n");
-        q++;
-    } while (q < 8);
+        k++;
+    } while (k < 8);
 
     return 0;
 }
