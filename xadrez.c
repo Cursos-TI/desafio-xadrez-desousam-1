@@ -37,5 +37,23 @@ int main() {
         k++;
     } while (k < 8);
 
+    // CAVALO - LOOPS ANINHADOS
+    // 2 para baixo + 1 para esquerda
+
+    printf("\n === movimento do cavalo ===\n");
+
+    //controla o movimento completo
+    for(int passo = 0; passo < 1; passo++){
+        int baixo = 0;
+        // duas casas para baixo
+        while (baixo < 2){
+            printf("baixo\n");
+            baixo++;
+        }
+
+        //uma casa para esquerda
+        printf("esquerda\n");
+    }
+
     return 0;
 }
