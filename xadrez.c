@@ -13,5 +13,17 @@ int main() {
         printf("direita\n");
     }
 
+    // BISPO - WHILE
+    // 5 casas na diagonal (cima + direita)
+
+    int b = 0;
+
+    printf("\n=== movimento do bispo ===\n");
+
+    while(b < 5) {
+        printf("cima, direita\n");
+        b++;
+    }
+
     return 0;
 }
