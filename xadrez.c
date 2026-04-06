@@ -7,7 +7,12 @@ void moverTorre(int casas){
     moverTorre(casas - 1); //chamada recursiva
 }
 
-
+// RAINHA (RECURSIVIDADE)
+void moverRainha(int casas){
+    if(casas == 0) return;
+    printf("esquerda\n");
+    moverRainha(casas - 1);
+}
 
     return 0;
 }
