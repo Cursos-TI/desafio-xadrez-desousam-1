@@ -46,5 +46,19 @@ void moverCavalo(){
     printf("direita\n");
 }
 
+int main(){
+
+    printf("=== movimento da torre ===\n");
+    moverTorre(5);
+
+    printf("\n=== movimento da bispo ===\n");
+    moverBispo(5);
+
+    printf("\n=== movimento da rainha ===\n");
+    moverRainha(8);
+
+    printf("\n=== movimento da cavalo ===\n");
+    moverCavalo();
+
     return 0;
 }
