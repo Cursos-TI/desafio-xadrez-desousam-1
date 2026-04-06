@@ -29,5 +29,22 @@ void moverBispo(int casas){
     moverBispo(casas - 1);
 }
 
+// CAVALO (LOOPS COMPLEXOS)
+void moverCavalo(){
+    //2 para cima + 1 para direita
+    int i, j;
+
+    for (i = 0; i < 2; i++){
+        for(j = 0; j < 1; j++){
+            if(i < 2){
+                printf("cima\n");
+                continue; //continua o loop
+            }
+        }
+    }
+    // depois do movimento vertical
+    printf("direita\n");
+}
+
     return 0;
 }
