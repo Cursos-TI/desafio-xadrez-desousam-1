@@ -25,5 +25,17 @@ int main() {
         b++;
     }
 
+    // RAINHA - DO-WHILE
+    // 8 casa para esquerda
+
+    int q = 0;
+
+    printf("\n=== movimento da rainha ===\n");
+
+    do {
+        printf("esqueda\n");
+        q++;
+    } while (q < 8);
+
     return 0;
 }
